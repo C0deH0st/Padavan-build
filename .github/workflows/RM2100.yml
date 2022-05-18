@@ -93,7 +93,6 @@ jobs:
         ##OpenVPN##
         sed -i 's/CONFIG_FIRMWARE_INCLUDE_OPENVPN=n/CONFIG_FIRMWARE_INCLUDE_OPENVPN=y/g' .config
         echo 'CONFIG_FIRMWARE_INCLUDE_OPENVPN=y" >> .config
-        
         #sed -i '/自定义项/d' .config
         #echo "自定义项=y" >> .config
         #########################################################################################
